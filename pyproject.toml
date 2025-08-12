@@ -1,7 +1,9 @@
 [project]
 name = "windows-automation-python"
 version = "0.1.0"
-description = "Add your description here"
+description = "A curated collection of **Windows automation** scripts written in Python. These scripts automate real-world tasks using libraries like **pywin32**, **pywinauto**, and **PyAutoGUI**, etc."
 readme = "README.md"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "pywin32>=311",
+]
