@@ -5,5 +5,8 @@ description = "A curated collection of **Windows automation** scripts written in
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.1",
     "pywin32>=311",
+    "reportlab>=4.4.3",
 ]
